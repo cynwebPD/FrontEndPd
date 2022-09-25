@@ -31,6 +31,7 @@ h2 {
 
 p {
     font-size: 20px;
+    color: rgb(230, 230, 210);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-bottom: 0;
 }
@@ -42,6 +43,7 @@ h3 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
     text-decoration-line: unset;
     margin-top: 50px;
+    text-decoration: underline;
 }
 
 
