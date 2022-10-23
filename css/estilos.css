@@ -1,6 +1,20 @@
- 
+ @font-face {
+    font-family: "arial";
+    src: url("../fuentes/ArialMTStd-Bold.otf") 
+    format("opentype")
+ }
+
+ @font-face {
+    font-family: "Garamond" ;
+    src: url("../fuentes/AGaramondPro-Bold.otf")
+    format("opentype")
+ }
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
 .cabecera {
     background-color:#F1F0F0;
+    width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -9,7 +23,7 @@
 
 .objeto1 {
     display: flex;
-    width: 60%;
+    width: 60vw;
     align-items: center;
     margin-left: 10px;
 }
@@ -21,18 +35,20 @@ body{
 }
 
 .italian {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "arial";
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1rem;
     margin-left: 10px;
 }
 
 nav {
     background-color: white;
     height: 46px;
+    width: 100vw;
     align-items: center;
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-end;
 
 }
@@ -49,12 +65,13 @@ ul {
 
 li {
     padding-left: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 12px;
+    font-family:'Roboto', sans-serif;
+    font-size: .8rem;
     width: max-content; 
 }
 
 li a{
+    font-family:'Roboto', sans-serif; ;
     text-decoration: none;
     color: black;
 }
@@ -63,6 +80,7 @@ li a{
 
 footer {
     background-color: black;
+    width: 100vw;
     display: flex; 
     justify-content: space-between;
     padding: 20px;
@@ -87,37 +105,42 @@ footer {
 
 
 main{
+    width: 100vw;
     display: flex;
     flex-wrap: wrap;
 
 }
 #col1{
-    width: 70%;
+    width: 60vw;
     margin: 0;
     display: flex;
+    box-sizing: content-box;
     flex-direction: column;
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.259);
 }
 #col2{
-    width: 301px;
-    display: flex;
-    justify-content: center;
-    align-content: center;   
-    margin-left: 20px; 
-}
-#containerCol2{
-    width: 301px;
+    width: 30vw;
     margin: 0;
     display: flex;
+    justify-content: center;
+    padding: 30px; 
+    flex-wrap: wrap;
+}
+#containerCol2{
+    align-content: center;
+    width: 100vw;
+    display: flex;
     flex-direction: column;
+    box-sizing: border-box;
 }
 #conjunto{
     display: flex;
 }
 #primerparra{
     width:50%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
     font-weight: 100;
     margin-top: 0;
     margin-bottom: 0;
@@ -130,31 +153,35 @@ main{
     width: 100%
 }
 .parrafo {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: rgb(89, 87, 87);
     padding-top: 5px;
     text-justify: auto;
+    font-size: 1rem;
 }
 .more {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: italic;
     color: black;
     text-decoration: none;
     margin-top: 0;
+    font-size: 1rem;
 }
 
 .experience {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "Garamond";
     padding-bottom: 0%;
     margin-bottom: 0;
+    font-size: 2rem;
 }
 
 .of {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "Garamond";
     padding-top: 0;
     margin-top: 0;
     color: crimson;
+    font-size: 1.5rem;
 }
 
 
