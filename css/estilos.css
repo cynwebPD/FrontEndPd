@@ -11,6 +11,34 @@
  }
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
+@media (max-width: 500px) {
+    main {
+        background-color: rgb(107, 95, 95);
+    }
+    main .parrafo {
+        color: white;
+    }
+    main .experience {
+        color: white
+    }
+    main #primerparra {
+        color: white;
+    }
+    main .more {
+        color: white;
+    }
+    
+}
+
+@media (min-width: 700px) {
+    main {
+        display: none;
+    }
+    main #foto2 {
+        display: none;
+    }
+}
+    
 
 .cabecera {
     background-color:#F1F0F0;
@@ -18,7 +46,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-right: 10px;
 }
 
 .objeto1 {
@@ -49,7 +76,8 @@ nav {
     align-items: center;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content:space-between;
+
 
 }
 
@@ -61,6 +89,7 @@ ul {
     align-items: flex-end;
     list-style: none;
     padding-right: 10px;
+    flex-wrap: wrap;
 }
 
 li {
@@ -82,9 +111,10 @@ footer {
     background-color: black;
     width: 100vw;
     display: flex; 
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 20px;
     align-items: flex-end;
+    flex-wrap: wrap;
 }
 
 
@@ -108,6 +138,7 @@ main{
     width: 100vw;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 
 }
 #col1{
@@ -191,7 +222,8 @@ main{
 
 .redesfooter {
     align-items: center;
-    margin-left: 30px;
+    padding: 10px;
+
 }
 
 .by {
