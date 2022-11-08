@@ -232,3 +232,7 @@ main{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(88, 88, 88);
 }
+
+.btn-primary {
+    background-color: rgb(42, 80, 46); border: 0ch;
+}
