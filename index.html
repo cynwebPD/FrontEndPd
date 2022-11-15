@@ -12,88 +12,110 @@
     <title>Italianfood</title>
     <link rel="stylesheet" href="./css/estilos.css">
 
+    <script>
+        alert ("Bienvenidos a Italia")
+    </script>
+
+
+
 </head>
 <body>
 
-    <header>
-        <div class="cabecera">
-            <div class="objeto1">
-                <img src="./img/logo.png" height=60px; alt="" > 
-                <p class="italian">ITALIAN FOOD</p>
-            </div>
-            <div class="redes">
-                <a href="https://www.whatsapp.com" target="_blank"><img src="./img/whatsapp.png" width="40px" alt="whatsapp"></a>
-                <a href="https://es-la.facebook.com"target="_blank"><img src="./img/facebook.png" width="40px" alt="face"></a>
-                <a href="https://www.instagram.com"target="_blank"> <img src="./img/instagram.png" width="40px" alt="youtube"></a>
-                <a href="https://www.youtube.com"target="_blank"> <img src="./img/youtube.png" width="40px" alt="youtube"></a>
-               
+    <header id="header">
+
+        <nav id="navegadornue">
+            <div class="row container-fluid">
+        
+                <div class=" isologotipo col 2"> 
+                <a href="index.html"><img src="./img/bandera.png" height="30px" alt="logo"></a>
+                <h1 class="italianfood">ITALIAN FOOD</h1>
+                </div>
+
+                <div class="navegador col 9">
+                    <a class="navegadortexto" href="">HOME</a>
+                    <a class="navegadortexto" href="">ABOUT</a>
+                    <a class="navegadortexto" href="">RECETAS</a>
+                    <a class="navegadortexto" href="">COCINA TIPICA</a>
+                    <a class="navegadortexto" href="mailito:cynthiasastre@gmail.com">CONTACTO</a>
+                </div>
+
+                <div class="redes col 1">
+                    <a class="nav-link" href="https://www.facebook.com" target="_blank"><img src="./img/face.png" width="30px" alt=""></a>
+                    <a class="nav-link" href="https://www.instagram.com" target="_blank"><img src="./img/insta.png" width="30px" alt=""></a>
+                    <a class="nav-link" href="https://www.youtube.com" target="_blank"><img src="./img/tube.png" width="30px" alt=""></a>
+        
+                   <button class="cambiar" onclick="modonocturno()">Modo Nocturno</button>
             </div>
         </div>
 
-        <nav>
-            <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="about.html">ABOUT</a></li>
-                <li><a href="browsetitle.html">BROWSE RECIPE</a></li>
-                <li><a href="kitchentips.html">KITCHEN TIPS</a></li>
-                <li><a href="italia.html">ITALIA</a></li>
-                <li><a href="mailto:cynthiasastre@gmail.com">CONTACTO</a></li>
-        
-            </li>
-        </nav>
+    
     </header>
 
 
-    <main >
+    <main id="main">
         <img src="./img/ortigia.jpg" id="backgroundImage"> 
 
-        <div class="fotoportada" id="col1">
-            <img src="./img/strombolin6.jpg" id="fotoPortada" alt="strombolin6">
-            <p class="parrafo">I have to confess, that I after all the years that I have lived and traveled in Italy, I have never seen a stromboli offered on a restaurant menu. Stromboli is a type of rolled or braided dough filled with various Italian cheeses (typically mozzarella) and cold cuts. Pizza dough is often the dough used, although the fillings can be just about anything you like. There is no definitive origin for the stromboli, although most feel that it is an Italian American invention which probably comes from Philadelphia. Others believe it was named after the film Stromboli, or was named for the island of Stromboli. Wherever it came from, stromboli can be a delicious snack, or lunch option, and is great when entertaining a large group. Best of all, kids love stromboli, and it is straightforward to assemble. When we moved to our new house, we moved just down the street from my daughter and three grandkids. Although the eldest is now away at University, the kids stop by often and are always on the lookout for tasty snacks. I like to keep the ingredients for a stromboli unhand as it is really easy for the kids to prepare themselves, and it has become a family favorite. The kids love it as an afternoon snack, and to pack it for school lunches as well.
-            </p>
-            <img src="./img/strombolini-1.jpg" id="foto2" alt="foto2">
-        </div>
 
-        <div id="col2">
-           <div id="containerCol2">
-            <section class="objeto2">
-                <h1 class="experience">Experience the joy</h1>
-                <h2 class="of">OF ITALIAN Food.</h2>
+     <div class="container text-center">
+            <div class="row">
             
-                <div id="conjunto"      >
-                    <p id="primerparra">The essence of Italian cooking today is simplicity. One uses the freshest seasonal ingredients and basic cooking techniques to simply enhance the natural flavor of the food.
-                        <br>
-                        <br>
-                        <a class="more" href="">more about me </a>
-                    </p>
-                    <img id="segundoparra" src="./img/autora.png" alt=""> 
-                </div>
-            </section>
-    
-            <aside class="objeto3">
-                <a href="https://www.disney.com"><img src="./img/disney.png" width="300px" alt=""></a>
-            </aside>
-           </div>
-        </div>
+            <div class="col 7">
+                    <img src="./img/strombolin6.jpg" id="foto1comida" alt="">
+                 <h1 class="titulo">Strombolini</h1>
+            
+                 <ol type="tipo">
+                    <h2 class="ingrediente">Ingredientes</h2>
+                    <li>1 masa para pizza grande comprada en una buena tienda</li>
+                    <li>300 ml de tomates triturados en lata</li>
+                    <li>1 cucharada de orégano seco</li>
+                    <li>pizca de sal</li>
+                    <li>40 rodajas finas de salami picante</li>
+                    <li>8 boquerones en aceite, escurridos, cortados por la mitad</li>
+                    <li>60 g de aceitunas negras, deshuesadas, picadas (optativo)</li>
+                    <li>300 g de mozzarella, escurrida y picada fina</li>
+                    <li>un puñado de hojas de albahaca fresca</li>
+                    <li>2 huevos, batidos</li>
+                 </ol>
+             </div>
 
+            <div class="col 5">
+                <div class="receta">
+                <h3> Preparación</h3>
+                <p>1. Precalienta el horno a 200° C.</p>
+                <p>2. Preparar la salsa: en un bol de mediano tamaño, mezcla tomates, orégano y una pizca de sal. Aparta.</p>
+                <p>3. Enharina ligeramente una bandeja grande. Trabaja con el rodillo y estira la masa en la bandeja formando un rectángulo, haciendo que la altura sea lo más uniforme posible.</p>
+                <p>4. Extiende la salsa de tomate sobre la masa, dejando libre una franja de 3 cm alrededor de los bordes.</p>
+                <p>5. Cubre con las rodajas de salami, seguido por las anchoas, las aceitunas, la mozzarella. Esparce algunas hojas de albahaca fresca.</p>
+                <p>6. Con el lado largo hacia ti, enrolla cuidadosamente el Stromboli, luego aprieta los extremos del rollo largo con los dedos para sellarlo. Puedes plegar el Stromboli ligeramente para formar una U si es demasiado grande.</p>
+                <p>7. Corta varias aberturas en el Stromboli para permitir que se ventile mientras cuece. Cepilla la superficie con huevo.</p>
+                <p>8. Hornea durante 20-25 minutos hasta que la parte superior esté dorada. Corta en varios trozos con un cuchillo de sierra. Sirve caliente.</p>                
+                <iframe width="460" height="215" src="https://www.youtube.com/embed/jjbrvrrTtes" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+             </div>
+        </div>
+    </div>
 
     </main>
 
+
+
+<section id="section">
 <div class="container">
     <div class="row">
-    <div class="col-sm-12 col-md-6 col-lg-3">
-            <div class="card" style="width: 18rem; ">
-            <img src="./img/pasta.jpg" width="18rem" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Pasta a la Amatricana</h5>
-              <p class="card-text"> Te enseñamos a preparar de manera sencilla la receta de espaguetis italiana.</p>
-              <a href="#" class="btn btn-primary">Ir a receta</a>
-            </div>
-        </div>
-    </div>
-            <div class="col-sm-12 col-md-6 col-lg-3">
-                <div class="card" style="width: 18rem;">
-                <img src="./img/berenjena.jpg" width="18rem" class="card-img-top" alt="...">
+         <div class="col-sm-12 col-md-6 col-lg-3">
+             <div class="card" id="cardscolor" style="width: 18rem;">
+             <img src="./img/pasta.jpg" width="18rem" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Pasta a la Amatricana</h5>
+                  <p class="card-text"> Te enseñamos a preparar de manera sencilla la receta de espaguetis italiana.</p>
+                  <a href="#" class="btn btn-primary">Ir a receta</a>
+                </div>
+             </div>
+         </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card" id="cardscolor2" style="width: 18rem;">
+            <img src="./img/berenjena.jpg" width="18rem" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Berenjena</h5>
                   <p class="card-text">Las berenjenas a la parmesana, una receta italiana muy facil y económica de preparar.</p>
@@ -102,31 +124,29 @@
             </div>
         </div>
 
-            <div class="col-sm-12 col-md-6 col-lg-3">
-                    <div class="card" style="width: 18rem;">
-                    <img src="./img/Palitos-de-pesto.jpg" width="18rem" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Palitos de pesto</h5>
-                      <p class="card-text">Los bastones de hojaldre son la estrella de los aperitivos! Ideal para mojar en salsa o natural.</p>
-                      <a href="#" class="btn btn-primary">Ir a receta</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-12 col-md-6 col-lg-3">
-                    <div class="card" style="width: 18rem;">
-                     <img src="./img/lasagna.jpg" class="card-img-top" alt="...">
-                     <div class="card-body">
-                     <h5 class="card-title">Lasagna</h5>
-                     <p class="card-text"> Auténtica lasagna boloñesa. Su carne bien hecha, la bechamel muy cremosa y la salsa boloñesa.</p>
-                     <a href="#" class="btn btn-primary">Ir a receta</a>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+             <div class="card" id="cardscolor3"style="width: 18rem;">
+            <img src="./img/Palitos-de-pesto.jpg" width="18rem" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Palitos de pesto</h5>
+                     <p class="card-text">Los bastones de hojaldre son la estrella de los aperitivos! Ideal para mojar en salsa o natural.</p>
+                    <a href="#" class="btn btn-primary">Ir a receta</a>
+                 </div>
              </div>
-            </div>
-        </div>
+         </div>
 
+         <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="card" id="cardscolor4"style="width: 18rem;">
+                <img src="./img/lasagna.jpg" class="card-img-top" alt="...">
+                 <div class="card-body" >
+                 <h5 class="card-title">Lasagna</h5>
+                 <p class="card-text"> Auténtica lasagna boloñesa. Su carne bien hecha, la bechamel muy cremosa y la salsa boloñesa.</p>
+                <a href="#" class="btn btn-primary">Ir a receta</a>
+                </div>
+        </div>
     </div>
 </div>
-
+</section>
 
 
     <footer>
@@ -138,10 +158,19 @@
             <a href="https://www.instagram.com"target="_blank"> <img src="./img/instagram.png" width="40px" alt="youtube"></a>
             <a href="https://www.youtube.com"target="_blank"> <img src="./img/youtube.png" width="40px" alt="youtube"></a>
         </div>
-        <p class="by">2022 ITALIAN FOOD. DESIGN BY CYNTHIA SASTRE</p>
+        <button class="autor" onclick="copy()">Copyright ©</button>
+
+
     </footer>
 
+
+  
+     
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<script src="./js/main.js"></script>
+
+
+
 </body>
 </html>

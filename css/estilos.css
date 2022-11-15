@@ -39,9 +39,10 @@
     }
 }
     
-
+header {
+    background-color:#F1F0F0 ;
+}
 .cabecera {
-    background-color:#F1F0F0;
     width: 100vw;
     display: flex;
     justify-content: space-between;
@@ -61,23 +62,12 @@ body{
     margin: 0;
 }
 
-.italian {
-    font-family: "arial";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1rem;
-    margin-left: 10px;
-}
 
 nav {
     background-color: white;
-    height: 46px;
     width: 100vw;
+    height: fit-content;
     align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-between;
-
 
 }
 
@@ -108,7 +98,7 @@ li a{
 
 
 footer {
-    background-color: black;
+    background-color: rgb(0, 53, 8);
     width: 100vw;
     display: flex; 
     justify-content: space-around;
@@ -141,23 +131,7 @@ main{
     justify-content: space-around;
 
 }
-#col1{
-    width: 60vw;
-    margin: 0;
-    display: flex;
-    box-sizing: content-box;
-    flex-direction: column;
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.259);
-}
-#col2{
-    width: 30vw;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    padding: 30px; 
-    flex-wrap: wrap;
-}
+
 #containerCol2{
     align-content: center;
     width: 100vw;
@@ -167,17 +141,6 @@ main{
 }
 #conjunto{
     display: flex;
-}
-#primerparra{
-    width:50%;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
-    font-weight: 100;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-right: 10px;
-}#segundoparra{
-    width:50%;
 }
 
 #fotoPortada{
@@ -207,13 +170,17 @@ main{
     font-size: 2rem;
 }
 
-.of {
+
+
+.titulo {
     font-family: "Garamond";
-    padding-top: 0;
-    margin-top: 0;
-    color: crimson;
-    font-size: 1.5rem;
+    padding-bottom: 0%;
+    margin-bottom: 0;
+    font-size: 3rem;
+    background-color: #F1F0F0;
 }
+
+
 
 
 .objeto3 {
@@ -230,9 +197,145 @@ main{
     color: #F1F0F0;
     padding: 30px 50px 0px 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(88, 88, 88);
+    color: rgb(255, 255, 255);
 }
 
 .btn-primary {
     background-color: rgb(42, 80, 46); border: 0ch;
+}
+
+.cambiar {
+    font-size: small;
+    border-bottom: 0ch;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: #F1F0F0;
+}
+
+ol {
+   list-style: none;
+   list-style-type: square;
+   background-color: #f1f0f05c;
+}
+
+ol li { 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    margin-top: 0;
+}
+
+li .tipo {
+   font-size: ,4rem;
+   
+}
+
+main .col5 {
+    background-color: white;
+}
+
+.receta {
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    background-color: #170202;
+    padding: 10px;
+    color: #F1F0F0;
+
+}
+
+.ingrediente {
+    font-family: "Arial";
+    font-weight: 100;
+    text-align: left;
+    font-size: medium;
+    padding-top: 10px;
+    padding-left: 15px;
+   }
+
+section {
+    background-color: #040000;
+    padding: 20px;
+}
+
+
+.redesnue {
+    padding: 10px;
+}
+
+.displayflex {
+   display: flex;
+   flex-wrap: wrap;
+   align-content: flex-end;
+   padding: 10px;
+   margin: 10px;
+}
+
+.displayflex img{
+    margin: 5px;
+ }
+
+
+a .nav {
+    font-size: 1rem;
+    font-style: "Arial";
+}
+
+body .darkmode {
+    background-color: #040000;
+    color: #F1F0F0;
+}
+
+.navegador{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: #040000;
+    text-decoration: none;
+}
+
+.navegadortexto {
+    color: #6e6767;
+    text-decoration-style: none;
+    text-decoration-line: none ;
+    align-items: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+    display: flex;
+    font-family: "arial";
+    margin: 10px;
+    font-weight: 100;
+}
+
+.italianfood {
+    color: #040000;
+    font-size: large;
+    align-self: center;
+    align-content: center;
+    padding-left: 20px;
+}
+
+
+.isologotipo {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: flex-start;
+}
+
+
+
+.redes {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: flex-end;
+
+}
+
+
+.autor {
+    background-color: #040000;
+    color: #F1F0F0;
+    font-family: "arial";
+    width: 200px;
 }
